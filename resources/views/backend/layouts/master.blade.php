@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Project Dashboard</title>
+  <title>Laravel Project Dashboard</title>
 
   <!-- Google Font: Source Sans Pro -->
 <link rel="stylesheet" href="{{ asset('backend') }}/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -204,7 +204,7 @@
 <script src="{{ asset('backend') }}/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
 <script src="{{ asset('backend') }}/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
   <!-- jquery-validation -->
-<script src="{{ asset('backend') }}/plugins/jquery-validation/jquery.validate.min.js"></script>
+<script src="{{ asset('backend') }}/plugins/jquery-validation/jquery.validate.min.js"></script>>
 <script src="{{ asset('backend') }}/plugins/jquery-validation/additional-methods.min.js"></script>
 <script type="text/javascript" src="{{ asset('backend') }}/dist/js/handlebars.min.js"></script>
 <!-- Select2 -->
@@ -231,7 +231,7 @@
 </script>
 
 <!-- Delete Sweet Alert-->
-<script type="text/javascript">
+<script type="text/javascript" >
     $(function(){
     $(document).on('click','#delete',function(e){
         e.preventDefault();
@@ -260,7 +260,7 @@
 
 <!-- Approve Pending Sweet Alert-->
 
-<script type="text/javascript">
+<script type="text/javascript" >
     $(function(){
     $(document).on('click','#approvedBtn',function(e){
         e.preventDefault();
@@ -287,7 +287,7 @@
     });
 </script>
 
-<script type="text/javascript">
+<script type="text/javascript" >
     $(document).ready(function(){
         $('#image').change(function(e){
             var reader  = new FileReader();
